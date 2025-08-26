@@ -64,12 +64,12 @@
               "mr": {
                 "title": "हवामान अनुप्रयोग",
                 "text": "<b>OpenWeatherMap API</b> वापरून हवामानाचा डेटा मिळवणारा प्रतिसादक्षम <b>MERN स्टॅक</b> वापरून तयार केलेला अ‍ॅप. Node.js आणि Express सह RESTful बॅकएंड, MongoDB मध्ये डेटा संग्रहण आणि React सह फ्रंटएंड डिझाइन.",
-                "tags": ["MERN", "हवामान", "API"]
+                "tags": ["MERN", "Weather", "API"]
               },
               "hi": {
                 "title": "मौसम ऐप",
                 "text": "<b>MERN स्टैक</b> का उपयोग कर एक <b>रिस्पॉन्सिव मौसम ऐप</b> बनाया जो OpenWeatherMap API से वास्तविक समय डेटा प्राप्त करता है। Node.js और Express के साथ RESTful बैकएंड, MongoDB और React + Axios का फ्रंटएंड उपयोग किया गया।",
-                "tags": ["MERN", "मौसम", "API"]
+                "tags": ["MERN", "Weather", "API"]
               }
             }
           },
@@ -96,12 +96,44 @@
               "mr": {
                 "title": "स्पॅम पुनरावलोकन वर्गीकरण",
                 "text": "<b>Python</b> मध्ये <b>मशीन लर्निंग</b> मॉडेल तयार केले, ज्याने स्पॅम चित्रपट पुनरावलोकन वर्गीकृत केले. NLTK सह NLP प्रक्रिया, pandas वापरून फीचर एक्स्ट्रॅक्शन, matplotlib आणि seaborn सह व्हिज्युअलायझेशन.",
-                "tags": ["ML", "NLP", "स्पॅम शोध"]
+                "tags": ["ML", "NLP", "Spam Detection"]
               },
               "hi": {
                 "title": "स्पैम रिव्यू क्लासिफायर",
                 "text": "<b>Python</b> में <b>मशीन लर्निंग</b> मॉडल बनाया जो स्पैम मूवी रिव्यू का वर्गीकरण करता है। NLTK से NLP प्रोसेसिंग, pandas से फीचर एक्सट्रैक्शन और matplotlib व seaborn से परिणामों का विज़ुअलाइज़ेशन किया।",
-                "tags": ["ML", "NLP", "स्पैम डिटेक्शन"]
+                "tags": ["ML", "NLP", "Spam Detection"]
+              }
+            }
+          },
+                    {
+            "categoryId": "apps",
+            "icon": {
+              "img": "images/pictures/vaultread.png",
+              "fa": "fa-solid fa-cloud-sun",
+              "faColors": { "bg": "#ffffff", "fill": "#00aaff" }
+            },
+            "links": [
+              { "faIcon": "fa-brands fa-github", "href": "https://github.com/Bhumika2101/VaultRead" }
+            ],
+            "media": {
+              "youtubeVideo": "",
+              "screenshots": { "aspectRatio": null, "images": [] }
+            },
+            "locales": {
+              "en": {
+                "title": "VaultRead",
+                "text": "Built a advanced <b>Library Management System</b> using the <b>MERN stack and HBS</b> to manage books, users, and borrow/return requests. It supports user authentication, role-based access (Admin/User), book CRUD operations, borrow/return tracking, and request management. The system provides a simple, responsive interface for students to borrow books and admins to manage library records efficiently.",
+                "tags": ["Node.js","HBS","MongoDB","Express.js"]
+              },
+              "mr": {
+                "title": "VaultRead",
+                "text": "पुस्तके, वापरकर्ते आणि उधार/परत विनंत्या व्यवस्थापित करण्यासाठी <b>MERN स्टॅक आणि HBS</b> वापरून एक प्रगत <b>लायब्ररी व्यवस्थापन प्रणाली</b> तयार केली. यात वापरकर्ता प्रमाणीकरण, भूमिका-आधारित प्रवेश (प्रशासक/वापरकर्ता), पुस्तक CRUD ऑपरेशन्स, उधार/परत ट्रॅकिंग आणि विनंती व्यवस्थापन यांना समर्थन आहे. ही प्रणाली विद्यार्थ्यांना पुस्तके उधार घेण्यासाठी आणि प्रशासकांना लायब्ररी रेकॉर्ड कार्यक्षमतेने व्यवस्थापित करण्यासाठी सोपा, प्रतिसादक्षम इंटरफेस प्रदान करते.",
+                "tags": ["Node.js","HBS","MongoDB","Express.js"]
+              },
+              "hi": {
+                "title": "VaultRead",
+                "text": "पुस्तकों, उपयोगकर्ताओं और उधार/वापसी अनुरोधों को प्रबंधित करने के लिए <b>MERN स्टैक और HBS</b> का उपयोग करके एक उन्नत <b>लाइब्रेरी मैनेजमेंट सिस्टम</b> बनाया। इसमें उपयोगकर्ता प्रमाणीकरण, भूमिका-आधारित पहुँच (एडमिन/यूज़र), पुस्तक CRUD ऑपरेशन्स, उधार/वापसी ट्रैकिंग और अनुरोध प्रबंधन का समर्थन है। यह प्रणाली छात्रों को पुस्तकें उधार लेने और एडमिन को लाइब्रेरी रिकॉर्ड को कुशलतापूर्वक प्रबंधित करने के लिए एक सरल, उत्तरदायी इंटरफ़ेस प्रदान करती है।",
+                "tags": ["Node.js","HBS","MongoDB","Express.js"]
               }
             }
           }
