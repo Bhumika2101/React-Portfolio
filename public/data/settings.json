@@ -16,23 +16,20 @@
         "profilePictureUrl": "images/pictures/profile.jpg",
 
         "locales": {
-            "en": {"role": "Computer Engineer"},
-            "es": {"role": "Desarrollador Web"},
-            "fr": {"role": "Développeur Web"},
-            "ko": {"role": "웹 개발자"}
+            "en": { "role": "Computer Engineer" },
+            "hi": { "role": "कंप्यूटर इंजीनियर" },
+            "mr": { "role": "कॉम्प्युटर इंजिनिअर" }
         }
     },
 
     "status": {
         "visible": true,
         "available": true,
-
         "locales": {
-            "en": {"message": "Available for work!"},
-            "es": {"message": "¡Disponible para freelance!"},
-            "fr": {"message": "Disponible pour freelance !"},
-            "ko": {"message": "프리랜스 가능합니다!"}
-        }
+            "en": { "message": "Open to opportunities!" },
+            "hi": { "message": "अवसरों के लिए तैयार हूँ!" },
+            "mr": { "message": "संधींसाठी तयार आहे!" }
+    }
     },
 
     "supportedThemes": [
